@@ -16,4 +16,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Live Link
 
-https://boldo-design-implementation.vercel.app/
+[https://boldo-design-implementation.vercel.app/](https://boldo-design-implementation.vercel.app/)
+
+## Figma Link
+
+[https://www.figma.com/community/file/1081611224529759785](https://www.figma.com/community/file/1081611224529759785)
