@@ -9,7 +9,7 @@ import LogoWall2 from '../../public/images/logo-wall/presto.png';
 
 function HeroSection() {
 	return (
-		<div className={`pl-[5vw] pr-[5vw] pt-[56px] pb-[64px] ${styles.container}`}>
+		<section className={`pl-[5vw] pr-[5vw] pt-[56px] pb-[64px] ${styles.container}`}>
 			<Navbar />
 			<div
 				className='flex flex-row flex-wrap pt-[65px] pb-[56px] items-center gap-y-24 gap-x-5'
@@ -49,7 +49,7 @@ function HeroSection() {
 				</HorizontalSlider>
 				<div className={styles.shade2} />
 			</div>
-		</div>
+		</section>
 	);
 }
 

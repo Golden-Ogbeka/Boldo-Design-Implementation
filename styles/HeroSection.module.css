@@ -131,3 +131,10 @@
 	z-index: 1;
 	transform: rotate(180deg);
 }
+
+@media (max-width: 1200px) {
+	.shade1,
+	.shade2 {
+		width: 150px;
+	}
+}

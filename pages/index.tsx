@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import React from 'react';
 import HeroSection from '../components/Homepage/HeroSection';
+import Services from '../components/Services/Services';
 
 const Home: NextPage = () => {
 	function reveal() {
@@ -28,6 +29,7 @@ const Home: NextPage = () => {
 	return (
 		<>
 			<HeroSection />
+			<Services />
 		</>
 	);
 };
