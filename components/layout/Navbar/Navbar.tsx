@@ -11,7 +11,7 @@ function Navbar() {
 				<Image src={Logo} alt='Boldo' />
 			</div>
 			<div className={styles.linkContainer}>
-				<a href='#product' className={styles.navLink}>
+				<a href='#product' className={styles.navLink + ' desktopLink'}>
 					Product
 				</a>
 				<a href='#services' className={styles.navLink}>
@@ -20,7 +20,7 @@ function Navbar() {
 				<Link href='/about'>
 					<span className={styles.navLink}>About</span>
 				</Link>
-				<button className={styles.navButton}>Log In</button>
+				<button className={styles.navButton + ' desktopLink'}>Log In</button>
 			</div>
 		</div>
 	);

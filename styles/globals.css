@@ -35,3 +35,9 @@ a {
 	transform: translateX(0);
 	opacity: 1;
 }
+
+@media (max-width: 800px) {
+	.desktopLink {
+		display: none !important;
+	}
+}

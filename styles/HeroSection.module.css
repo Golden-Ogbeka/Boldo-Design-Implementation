@@ -1,0 +1,5 @@
+.container {
+	background-image: url(../public/images/hero/wallpaper.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
