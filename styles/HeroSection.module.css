@@ -96,3 +96,38 @@
 	background-color: #fff;
 	color: #0a2640;
 }
+
+.logoWallImage1 {
+	min-width: 145px;
+	background-image: url(../public/images/logo-wall/boldo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	min-height: 42px;
+}
+.logoWallImage2 {
+	min-width: 145px;
+	background-image: url(../public/images/logo-wall/presto.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	min-height: 42px;
+}
+
+.shade1 {
+	position: absolute;
+	left: 0;
+	width: 400px;
+	background: linear-gradient(90deg, #0a2640 0%, rgba(10, 38, 64, 0.109375) 79.6%);
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+}
+.shade2 {
+	position: absolute;
+	right: 0;
+	width: 400px;
+	background: linear-gradient(90deg, #0a2640 0%, rgba(10, 38, 64, 0.109375) 79.6%);
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+	transform: rotate(180deg);
+}

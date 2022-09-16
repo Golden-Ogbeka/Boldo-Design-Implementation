@@ -31,10 +31,24 @@ function HeroSection() {
 				</div>
 			</div>
 
-			<HorizontalSlider>
-				<Image src={LogoWall1} alt='Presto' width={146.51} />
-				<Image src={LogoWall2} alt='Boldo' width={146.51} />
-			</HorizontalSlider>
+			<div className='relative pl-5 pr-5 '>
+				<div className={styles.shade1} />
+				<HorizontalSlider id='logo-wall'>
+					<div className={styles.logoWallImage1} />
+					<div className={styles.logoWallImage2} />
+					<div className={styles.logoWallImage1} />
+					<div className={styles.logoWallImage2} />
+					<div className={styles.logoWallImage1} />
+					<div className={styles.logoWallImage2} />
+					<div className={styles.logoWallImage1} />
+					<div className={styles.logoWallImage2} />
+					<div className={styles.logoWallImage1} />
+					<div className={styles.logoWallImage2} />
+					<div className={styles.logoWallImage1} />
+					<div className={styles.logoWallImage2} />
+				</HorizontalSlider>
+				<div className={styles.shade2} />
+			</div>
 		</div>
 	);
 }
