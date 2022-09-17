@@ -7,9 +7,11 @@ import Link from 'next/link';
 function Navbar() {
 	return (
 		<div className={styles.container}>
-			<div className={styles.logo}>
-				<Image src={Logo} alt='Boldo' />
-			</div>
+			<Link href='/'>
+				<div className={styles.logo}>
+					<Image src={Logo} alt='Boldo' className='cursor-pointer' />
+				</div>
+			</Link>
 			<div className={styles.linkContainer}>
 				<a href='#product' className={styles.navLink + ' desktopLink'}>
 					Product

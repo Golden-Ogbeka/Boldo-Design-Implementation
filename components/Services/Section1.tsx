@@ -10,7 +10,7 @@ function Section1() {
 		<div className={styles.section1}>
 			<h2>Our Services</h2>
 			<p>Handshake infographic mass market crowdfunding iteration.</p>
-			<div className='flex flex-row items-center lg:justify-around flex-wrap gap-10 w-full sm:justify-center'>
+			<div className='flex flex-row items-center lg:justify-around flex-wrap gap-10 w-full justify-center'>
 				<ServiceCard image={Image1} title='Cool feature title' />
 				<ServiceCard image={Image2} title='Even cooler feature' />
 				<ServiceCard image={Image3} title='Cool feature title' />
