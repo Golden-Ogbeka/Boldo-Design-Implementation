@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import React from 'react';
 import Blog from '../components/Homepage/Blog/Blog';
+import CustomerSection from '../components/Homepage/CustomerSection';
 import HeroSection from '../components/Homepage/HeroSection';
 import Newsletter from '../components/Homepage/Newsletter';
 import Services from '../components/Homepage/Services/Services';
@@ -33,6 +34,7 @@ const Home: NextPage = () => {
 		<>
 			<HeroSection />
 			<Services />
+			<CustomerSection />
 			<Blog />
 			<Newsletter />
 			<Footer />
