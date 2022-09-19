@@ -6,25 +6,25 @@ import Link from 'next/link';
 
 function Navbar() {
 	return (
-		<div className={styles.container}>
+		<nav className={styles.container}>
 			<Link href='/'>
 				<div className={styles.logo}>
 					<Image src={Logo} alt='Boldo' className='cursor-pointer' />
 				</div>
 			</Link>
 			<div className={styles.linkContainer}>
-				<a href='#product' className={styles.navLink + ' desktopLink'}>
-					Product
-				</a>
-				<a href='#services' className={styles.navLink}>
-					Services
-				</a>
+				<Link href='#product'>
+					<span className={styles.navLink + ' desktopLink'}>Product</span>
+				</Link>
+				<Link href='#services'>
+					<span className={styles.navLink}>Services</span>
+				</Link>
 				<Link href='/about'>
 					<span className={styles.navLink}>About</span>
 				</Link>
 				<button className={styles.navButton + ' desktopLink'}>Log In</button>
 			</div>
-		</div>
+		</nav>
 	);
 }
 

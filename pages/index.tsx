@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import React from 'react';
 import HeroSection from '../components/Homepage/HeroSection';
 import Services from '../components/Services/Services';
+import Footer from '../components/layout/Footer/Footer';
 
 const Home: NextPage = () => {
 	function reveal() {
@@ -30,6 +31,7 @@ const Home: NextPage = () => {
 		<>
 			<HeroSection />
 			<Services />
+			<Footer />
 		</>
 	);
 };

@@ -1,0 +1,71 @@
+.logoContainer > p {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	/* or 175% */
+
+	color: #777777;
+	max-width: 300px;
+	margin-top: 40px;
+	margin-bottom: 64px;
+}
+.logoContainer > span {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	/* identical to box height, or 175% */
+
+	display: flex;
+	align-items: center;
+
+	/* Gray */
+
+	color: #777777;
+}
+.listHeader {
+	margin: 0;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 32px;
+	/* or 160% */
+
+	color: #000000;
+}
+
+.listLink {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+	/* or 160% */
+
+	/* Gray */
+
+	color: #777777;
+}
+
+.listLink:hover {
+	color: #69e6a6;
+	cursor: pointer;
+}
+
+.hiringText {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 28px;
+	/* identical to box height, or 215% */
+
+	/* Dark Blue */
+
+	color: #0a2640;
+}
