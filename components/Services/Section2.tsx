@@ -6,7 +6,7 @@ import CheckIcon from '../../public/icons/check.png';
 
 function Section2() {
 	return (
-		<div className='pt-[197px] pl-[5vw] pr-[5vw] flex flex-wrap md:flex-nowrap items-center gap-10 lg:justify-between justify-center'>
+		<div className='pt-[197px] pl-[5vw] pr-[5vw] flex flex-wrap md:flex-nowrap items-center gap-10 lg:justify-between justify-center reveal'>
 			<Image src={CustomerImage} alt='Customer' objectFit='contain' />
 			<div className={`flex flex-col`}>
 				<h3 className={styles.servicesHeader}>
