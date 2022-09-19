@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import CustomerImage from '../../public/images/services/customer-2.png';
-import styles from '../../styles/Services.module.css';
-import FeatherIcon from '../../public/icons/feather.png';
-import EyeIcon from '../../public/icons/eye.png';
-import SunIcon from '../../public/icons/sun.png';
+import CustomerImage from '../../../public/images/services/customer-2.png';
+import styles from '../../../styles/Services.module.css';
+import FeatherIcon from '../../../public/icons/feather.png';
+import EyeIcon from '../../../public/icons/eye.png';
+import SunIcon from '../../../public/icons/sun.png';
 
 function Section3() {
 	return (

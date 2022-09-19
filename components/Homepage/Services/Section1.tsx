@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from '../../styles/Services.module.css';
+import styles from '../../../styles/Services.module.css';
 import ServiceCard from './ServiceCard';
-import Image1 from '../../public/images/services/cool-1.png';
-import Image2 from '../../public/images/services/cool-2.png';
-import Image3 from '../../public/images/services/cool-3.png';
+import Image1 from '../../../public/images/services/cool-1.png';
+import Image2 from '../../../public/images/services/cool-2.png';
+import Image3 from '../../../public/images/services/cool-3.png';
 
 function Section1() {
 	return (

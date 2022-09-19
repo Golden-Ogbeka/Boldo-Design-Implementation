@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
-import CustomerImage from '../../public/images/services/customer-1.png';
-import styles from '../../styles/Services.module.css';
-import CheckIcon from '../../public/icons/check.png';
+import CustomerImage from '../../../public/images/services/customer-1.png';
+import styles from '../../../styles/Services.module.css';
+import CheckIcon from '../../../public/icons/check.png';
 
 function Section2() {
 	return (

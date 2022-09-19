@@ -22,7 +22,7 @@ function HeroSection() {
 						advantage innovator success deployment non-disclosure.
 					</p>
 					<div className={styles.buttonContainer}>
-						<button className={styles.mainButton}>Buy template</button>
+						<button className='mainButton'>Buy template</button>
 						<button className={styles.subButton}>Explore</button>
 					</div>
 				</div>

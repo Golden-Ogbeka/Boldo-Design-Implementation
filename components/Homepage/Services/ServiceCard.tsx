@@ -1,7 +1,7 @@
 import Image, { StaticImageData } from 'next/image';
 import React from 'react';
-import styles from '../../styles/Services.module.css';
-import ArrowRight from '../../public/icons/arrow-right-small.png';
+import styles from '../../../styles/Services.module.css';
+import ArrowRight from '../../../public/icons/arrow-right-small.png';
 
 function ServiceCard({ image, title }: { image: StaticImageData; title: string }) {
 	return (
