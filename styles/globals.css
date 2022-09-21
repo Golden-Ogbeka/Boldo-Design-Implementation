@@ -120,3 +120,21 @@ input::placeholder {
 	padding-bottom: 64px;
 	padding-inline: 5vw;
 }
+
+.blue-wallpaper {
+	background-image: url(../public/images/backgrounds/blue-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.customized-blue-wallpaper {
+	background-image: url(../public/images/backgrounds/blue-bg.png);
+	background-size: 100vw 615px;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 1000px) {
+	.customized-blue-wallpaper {
+		background-size: cover;
+	}
+}

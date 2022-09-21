@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 function Blog() {
 	return (
-		<div className={styles.section1 + ' pb-[124px] justify-around reveal'}>
+		<div className={styles.section1 + ' justify-around reveal'}>
 			<h2>Our Blog</h2>
 			<p>Value proposition accelerator product management venture</p>
 			<div className='flex flex-row items-center lg:justify-around flex-wrap gap-10 w-full justify-center'>

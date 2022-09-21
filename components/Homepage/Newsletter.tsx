@@ -4,7 +4,7 @@ import styles from '../../styles/Newsletter.module.css';
 function Newsletter() {
 	return (
 		<section>
-			<div className='reveal pl-[5vw] pr-[5vw]'>
+			<div className='reveal pl-[5vw] pr-[5vw] mt-[124px] mb-[84px]'>
 				<div className={styles.container}>
 					<h2>An enterprise template to ramp up your company website</h2>
 					<div className='flex flex-row items-center flex-wrap gap-6 justify-center'>

@@ -57,7 +57,6 @@ function LatestNews() {
 						className={styles.blogButton}
 						style={{
 							marginTop: 96,
-							marginBottom: 124,
 						}}
 					>
 						Load more
