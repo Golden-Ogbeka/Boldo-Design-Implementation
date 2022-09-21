@@ -109,3 +109,14 @@ input::placeholder {
 
 	color: #000000;
 }
+
+.pageNotFoundContainer {
+	background-image: url(../public/images/hero/wallpaper.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	padding-top: 56px;
+	padding-bottom: 64px;
+	padding-inline: 5vw;
+}
