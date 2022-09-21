@@ -21,3 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Figma Link
 
 [https://www.figma.com/community/file/1081611224529759785](https://www.figma.com/community/file/1081611224529759785)
+
+## Tools Used
+
+Next JS, TypeScript, Tailwind CSS
