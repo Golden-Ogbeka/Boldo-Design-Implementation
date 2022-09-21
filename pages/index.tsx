@@ -7,24 +7,9 @@ import Newsletter from '../components/Homepage/Newsletter';
 import Services from '../components/Homepage/Services/Services';
 import Testimonial from '../components/Homepage/Testimonial/Testimonial';
 import Footer from '../components/layout/Footer/Footer';
+import { reveal } from '../functions/animation';
 
 const Home: NextPage = () => {
-	function reveal() {
-		var reveals = document.querySelectorAll('.reveal');
-
-		for (var i = 0; i < reveals.length; i++) {
-			var windowHeight = window.innerHeight;
-			var elementTop = reveals[i].getBoundingClientRect().top;
-			var elementVisible = 150;
-
-			if (elementTop < windowHeight - elementVisible) {
-				reveals[i].classList.add('active');
-			} else {
-				reveals[i].classList.remove('active');
-			}
-		}
-	}
-
 	// For scroll animation
 	React.useEffect(() => {
 		if (typeof window !== 'undefined') {

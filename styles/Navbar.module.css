@@ -19,6 +19,20 @@
 	color: #69e6a6;
 	cursor: pointer;
 }
+.navLinkAlt {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px !important;
+	line-height: 28px;
+	color: #0a2640;
+	text-decoration: none;
+}
+
+.navLinkAlt:hover {
+	color: #69e6a6;
+	cursor: pointer;
+}
 
 .navButton {
 	width: 128px;
@@ -44,6 +58,30 @@
 
 .navButton:hover {
 	background-color: #69e6a6;
+}
+
+.navButtonAlt {
+	width: 128px;
+	height: 40px;
+
+	background: #ffffff;
+	border: 2px solid #0a2640;
+	border-radius: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+
+	color: #0a2640;
+}
+
+.navButtonAlt:hover {
+	background-color: #69e6a6;
+	border: 2px solid #69e6a6;
 }
 
 .logo {

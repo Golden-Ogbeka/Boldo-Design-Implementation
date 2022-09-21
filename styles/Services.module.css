@@ -201,7 +201,7 @@
 	/* or 160% */
 
 	color: #000000;
-	height: 99px;
+	min-height: 99px;
 }
 
 .blogButton {
