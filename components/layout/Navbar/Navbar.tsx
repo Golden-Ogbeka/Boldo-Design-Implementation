@@ -5,7 +5,7 @@ import LogoAlt from '../../../public/images/brand/logo-alt.png';
 import Image from 'next/image';
 import Link from 'next/link';
 
-function Navbar({ type = 'normal' }: { type: 'normal' | 'alternate' }) {
+function Navbar({ type = 'normal' }: { type?: 'normal' | 'alternate' }) {
 	return (
 		<nav className={styles.container}>
 			<Link href='/'>
@@ -20,7 +20,9 @@ function Navbar({ type = 'normal' }: { type: 'normal' | 'alternate' }) {
 			<div className={styles.linkContainer}>
 				<Link href='#product'>
 					<span
-						className={type === 'normal' ? styles.navLink : styles.navLinkAlt + ' desktopLink'}
+						className={
+							'desktopLink' + ' ' + type === 'normal' ? styles.navLink : styles.navLinkAlt
+						}
 					>
 						Product
 					</span>
@@ -35,7 +37,7 @@ function Navbar({ type = 'normal' }: { type: 'normal' | 'alternate' }) {
 				</Link>
 				<button
 					className={
-						type === 'normal' ? styles.navButton : styles.navButtonAlt + ' desktopLink'
+						'desktopLink' + ' ' + (type === 'normal' ? styles.navButton : styles.navButtonAlt)
 					}
 				>
 					Log In
