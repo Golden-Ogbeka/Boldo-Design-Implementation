@@ -21,7 +21,7 @@ function Navbar({ type = 'normal' }: { type?: 'normal' | 'alternate' }) {
 				<Link href='#product'>
 					<span
 						className={
-							'desktopLink' + ' ' + type === 'normal' ? styles.navLink : styles.navLinkAlt
+							'desktopLink' + ' ' + (type === 'normal' ? styles.navLink : styles.navLinkAlt)
 						}
 					>
 						Product
