@@ -1,6 +1,6 @@
 # Boldo Design Implementation
 
-Code implementaion for Boldo Design by Edgar Allan in Figma Community
+Code implementation for Boldo Design by Edgar Allan in Figma Community
 
 ## Getting Started
 
